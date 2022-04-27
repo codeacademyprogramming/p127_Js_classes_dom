@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#lamp {
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  border-radius: 50%;
+  transition: 100ms all linear;
+  border-left: 0px solid black ;
+  border-bottom: 0px  solid black
+}
+
+.active-lamp {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 0 10px 80px yellow;
+}
